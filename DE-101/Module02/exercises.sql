@@ -37,4 +37,9 @@ where order_id in (
 
 select now()
 
+select date_trunc('year', now())
+
+select extract ('year' from now())
+
+
 
