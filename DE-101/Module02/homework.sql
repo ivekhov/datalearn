@@ -22,7 +22,7 @@ select
 	, sum(sales) / count(distinct customer_id) as "Sales per Customer"
 	, sum(profit) / count(distinct customer_id) as "Profit per Customer"
 	, avg(discount) * 100 as "Avg. Discount"
-from orders o 
+from public.orders o 
 
 
 -- Sales by month
@@ -30,7 +30,7 @@ select
 extract('year' from order_date)  as "Year"	
 , extract('month' from order_date)  as "Month"
 	, sum(sales) as "Total Sales"
-from orders
+from public.orders
 group by 1, 2
 order by 1 asc, 2 asc;
 
