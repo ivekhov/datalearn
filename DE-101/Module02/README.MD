@@ -76,3 +76,11 @@ inserting-02.sql
 
 5 В качестве домашнего задания вам необходимо создать дашборд в одном из решений, которые мы рассмотрели. ДЛя идей можно использовать задание из 1го модуля. Данные должны быть в Postgres в AWS и вы сможете подключиться сервисом к БД и создать несколько отчетов. Для практики можно и во всех 3х создать.
 
+
+- Klipfolio https://app.klipfolio.com/trends/metric/detail/666d4336be85261fe894c39447bd56f5?override_vis_options=eyJ2ZXJzaW9uIjozLCJkYXRhIjp7ImNvbnRleHQiOnsicmFuZ2UiOnsic3RhcnQiOiIyMDE2LTAxLTAxVDAwOjAwOjAwLjAwMFoiLCJlbmQiOiIyMDE2LTAyLTE0VDIzOjU5OjU5Ljk5OVoifSwicGVyaW9kaWNpdHkiOiIxdyIsImZpbHRlcnMiOnt9LCJjb21wYXJpc29uIjoibm9uZSJ9LCJzbG90cyI6eyJjYXRlZ29yaWVzIjpbeyJuYW1lIjoidGltZSJ9XSwiZGltZW5zaW9uIjpbeyJuYW1lIjoic3ViX2NhdGVnb3J5In1dfX0sInVwZGF0ZWQiOnRydWUsInZpcyI6eyJvcHRpb25zIjp7ImxlZ2VuZFBvc2l0aW9uIjoicmlnaHQiLCJzaG93RGF0YUxhYmVscyI6ZmFsc2V9LCJjb2xvdXJpbmdTdHJhdGVneSI6InJvdGF0aW5nIiwidHlwZSI6ImNvbHVtbl9zdGFja2VkIn19
+
+- Google Data Studio https://datastudio.google.com/reporting/2ddcea69-337b-4f9d-bede-938edccb6859 
+
+- AWS Quiksight 
+
+
