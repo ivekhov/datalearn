@@ -81,6 +81,6 @@ inserting-02.sql
 
 - Google Data Studio https://datastudio.google.com/reporting/2ddcea69-337b-4f9d-bede-938edccb6859 
 
-- AWS Quiksight 
+- AWS Quiksight https://eu-central-1.quicksight.aws.amazon.com/sn/dashboards/3784c473-00d3-43c5-b238-5b1a1aa0fc90/views/084a1d82-f881-42bf-b8fd-f80533f2395c
 
 
