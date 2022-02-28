@@ -225,6 +225,32 @@ inner join dw.product_dim p on sf.prod_id=p.prod_id
 inner join dw.customer_dim cd on sf.cust_id=cd.cust_id;
 
 
+-- Data mart for analytics
+select
+    sf.sales
+    , sf.profit
+    , sf.quantity
+    , sf.discount
+    , calend_d.date
+    , calend_d.year
+    , calend_d.month
+    , calend_d.week_day
+    , cd.customer_name
+    , g.country
+    , g.city
+    , g.state
+    , p.product_name
+    , p.category
+    , p.sub_category
+    , p.segment
+    , s.shipping_mode
+from dw.sales_fact sf
+  inner join dw.shipping_dim s on sf.ship_id=s.ship_id
+  inner join dw.geo_dim g on sf.geo_id=g.geo_id
+  inner join dw.product_dim p on sf.prod_id=p.prod_id
+  inner join dw.customer_dim cd on sf.cust_id=cd.cust_id
+  inner join dw.calendar_dim calend_d
+    on sf.order_date_id = calend_d.dateid;
 
 
 
